@@ -164,32 +164,23 @@ const experiences = [
   },
 ];
 
-const testimonials = [
+const certifications = [
   {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    title: "AWS Cloud Practitioner",
+    link: "https://www.credly.com/badges/e521c3f8-8864-4804-a0fa-9db2085f3f90/linked_in_profile",
   },
   {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+    title: "Python Course by University of Michigan",
+    link: "https://ibb.co/rs3vyqd",
   },
   {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    title: "AWS Machine Learning Associate",
+    link: "<insert link here>",
+    status: "Upcoming",
   },
 ];
+
+const testimonials = certifications;
 
 const projects = [
   {
