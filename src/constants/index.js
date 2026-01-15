@@ -15,13 +15,27 @@ import {
   git,
   figma,
   docker,
+  angular,
+  springboot,
+  flask,
+  androidstudio,
+  postgresql,
+  aws,
+  pytorch,
   meta,
   starbucks,
   tesla,
   shopify,
+  ieee,
+  verizon,
+  valeon,
+  rwj,
   carrent,
   jobit,
   tripguide,
+  maniflow,
+  burger,
+  coffeebot,
   threejs,
 } from "../assets";
 
@@ -33,6 +47,10 @@ export const navLinks = [
   {
     id: "work",
     title: "Work",
+  },
+  {
+    id: "projects",
+    title: "Projects",
   },
   {
     id: "contact",
@@ -73,44 +91,44 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
+    name: "Docker",
+    icon: docker,
+  },
+  {
+    name: "Angular",
+    icon: angular,
+  },
+  {
+    name: "Spring Boot",
+    icon: springboot,
   },
   {
     name: "React JS",
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "Flask",
+    icon: flask,
   },
   {
-    name: "Tailwind CSS",
-    icon: tailwind,
+    name: "Android Studio",
+    icon: androidstudio,
   },
   {
-    name: "Node JS",
-    icon: nodejs,
+    name: "PostgreSQL",
+    icon: postgresql,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
+    name: "AWS",
+    icon: aws,
   },
   {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
-    name: "git",
+    name: "Git",
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
+    name: "PyTorch",
+    icon: pytorch,
   },
 ];
 
@@ -118,7 +136,7 @@ const experiences = [
   {
     title: "AI Engineer Intern",
     company_name: "IEEE",
-    icon: starbucks,
+    icon: ieee,
     iconBg: "#383E56",
     date: "June 2025 - August 2025",
     points: [
@@ -130,7 +148,7 @@ const experiences = [
   {
     title: "Software Engineer Intern",
     company_name: "Verizon",
-    icon: tesla,
+    icon: verizon,
     iconBg: "#E6DEDD",
     date: "June 2024 - August 2024",
     points: [
@@ -142,7 +160,7 @@ const experiences = [
   {
     title: "Software Engineer Intern",
     company_name: "Valeon",
-    icon: shopify,
+    icon: valeon,
     iconBg: "#383E56",
     date: "April 2023 - Jan 2024",
     points: [
@@ -153,7 +171,7 @@ const experiences = [
   {
     title: "Research Assistant",
     company_name: "Robert Wood Johnson Hospital",
-    icon: meta,
+    icon: rwj,
     iconBg: "#E6DEDD",
     date: "June 2022 - August 2022",
     points: [
@@ -184,67 +202,63 @@ const testimonials = certifications;
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "ManiFlow",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "ManiFlow is a system that converts academic PDFs into animated educational videos by analyzing documents with AI, generating storyboards, and rendering animations using Manim.",
     tags: [
       {
-        name: "react",
+        name: "Spring Boot",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "React J.S",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "LangChain",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: maniflow,
+    source_code_link: "https://github.com/MilanDPatel/maniflow-backend",
   },
   {
-    name: "Job IT",
+    name: "BurgerRush",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Android app that allows users to browse a menu, customize orders, and manage a dynamic shopping cart, with CSV export functionality for saving order summaries locally.",
     tags: [
       {
-        name: "react",
+        name: "Android Studio",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Java",
         color: "green-text-gradient",
       },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: burger,
+    source_code_link: "https://github.com/MilanDPatel/RUBurgerAndroidApp",
   },
   {
-    name: "Trip Guide",
+    name: "CoffeeBot",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "AI-powered chatbot for a coffee shop that recommends products using Apriori-based market basket analysis and semantic search, with a CI/CD pipeline for automated deployment on AWS.",
     tags: [
       {
-        name: "nextjs",
+        name: "Python",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Firebase",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Pinecone",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: coffeebot,
+    source_code_link: "https://github.com/MilanDPatel/coffee-chat-bot",
   },
 ];
 
